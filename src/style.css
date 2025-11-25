@@ -6,10 +6,18 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-.container {
-  max-width: 1340px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 10px;
-  padding-right: 10px;
+.card {
+  @apply flex flex-col gap-2.5;
+}
+.card-text {
+  @apply font-semibold text-[12px];
+}
+.features-cards {
+  @apply gap-2 flex flex-col;
+}
+.features-cards-title {
+  @apply font-semibold text-[15px];
+}
+.features-cards-description {
+  @apply font-medium text-[12px];
 }
